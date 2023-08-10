@@ -13,26 +13,26 @@ var gameOverImg,restartImg
 var jumpSound , checkPointSound, dieSound
 
 function preload(){
-  trex_running = loadAnimation("trex1.png","trex3.png","trex4.png");
-  trex_collided = loadAnimation("trex_collided.png");
+  trex_running = loadAnimation("assets/trex1.png","assets/trex3.png","assets/trex4.png");
+  trex_collided = loadAnimation("assets/trex_collided.png");
   
-  groundImage = loadImage("ground2.png");
+  groundImage = loadImage("assets/ground2.png");
   
-  cloudImage = loadImage("cloud.png");
+  cloudImage = loadImage("assets/cloud.png");
   
-  obstacle1 = loadImage("obstacle1.png");
-  obstacle2 = loadImage("obstacle2.png");
-  obstacle3 = loadImage("obstacle3.png");
-  obstacle4 = loadImage("obstacle4.png");
-  obstacle5 = loadImage("obstacle5.png");
-  obstacle6 = loadImage("obstacle6.png");
+  obstacle1 = loadImage("assets/obstacle1.png");
+  obstacle2 = loadImage("assets/obstacle2.png");
+  obstacle3 = loadImage("assets/obstacle3.png");
+  obstacle4 = loadImage("assets/obstacle4.png");
+  obstacle5 = loadImage("assets/obstacle5.png");
+  obstacle6 = loadImage("assets/obstacle6.png");
   
-  restartImg = loadImage("restart.png");
-  gameOverImg = loadImage("gameOver.png");
+  restartImg = loadImage("assets/restart.png");
+  gameOverImg = loadImage("assets/gameOver.png");
   
-  jumpSound = loadSound("jump.mp3");
-  dieSound = loadSound("die.mp3");
-  checkPointSound = loadSound("checkpoint.mp3");
+  jumpSound = loadSound("assets/jump.mp3");
+  dieSound = loadSound("assets/die.mp3");
+  checkPointSound = loadSound("assets/checkPoint.mp3");
 }
 
 function setup() {
